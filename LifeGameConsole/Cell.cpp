@@ -1,13 +1,8 @@
 #include "Cell.h"
 
-
-
-Cell::Cell(bool status)
+Cell::Cell(bool status) : status(status), nextStatus(false)
 {
-	this->status = status;
-	this->nextStatus = false;
 }
-
 
 Cell::~Cell()
 {

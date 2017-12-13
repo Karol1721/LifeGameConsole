@@ -112,13 +112,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Cell.h" />
+    <ClInclude Include="Configuration.h" />
+    <ClInclude Include="IService.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="Modification.h" />
     <ClInclude Include="Position.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="RandomService.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="Configuration.cpp" />
     <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Modification.cpp" />
     <ClCompile Include="Position.cpp" />
+    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="RandomService.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

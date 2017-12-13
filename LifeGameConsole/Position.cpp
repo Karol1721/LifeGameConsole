@@ -1,11 +1,8 @@
 #include "Position.h"
 
-
-
 Position::Position(int x, int y) :x(x-1), y(y-1)
 {
 }
-
 
 Position::~Position()
 {

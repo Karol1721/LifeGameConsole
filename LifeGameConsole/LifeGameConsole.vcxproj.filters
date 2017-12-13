@@ -24,6 +24,21 @@
     <ClInclude Include="Position.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Modification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cell.cpp">
@@ -33,6 +48,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Position.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomService.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
